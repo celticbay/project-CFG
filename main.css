@@ -1,9 +1,5 @@
 
-
- 
- 
- 
- .header {
+.header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -66,7 +62,7 @@ background-color:ivory;
 
 
 
-/*ireland page*/
+/*image borders*/
 
 .img {
   width:100%;
@@ -76,6 +72,8 @@ background-color:ivory;
   position:static;
 }
 
+/*Change color on hover*/
+
 .img:hover {
   width:100%;
   padding:5px;
@@ -84,9 +82,10 @@ background-color:ivory;
   position:relative;
 }
 
-/*end of ireland page*/
+/*image borders*/
 
 
+/* wanted to add a video but didnt work - review */
 .vid {
   width:100%;
   padding:5px;

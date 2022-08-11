@@ -1,4 +1,4 @@
-
+/* css code used to change the center image of home page - this works on its own - but when the layout is added with the header and nav with the links to other pages nothing sits correctly*/
 
 body{
     background-image: url(./Images/Background/projecteye.jpg);
@@ -92,7 +92,7 @@ button:hover {
 background-color:ivory;
 }
 
-
+/*end of layout througout pages*/
   
    
 
