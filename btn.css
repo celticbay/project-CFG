@@ -1,0 +1,99 @@
+
+
+body{
+    background-image: url(./Images/Background/projecteye.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+
+
+btn-container {
+    display:flex;
+    justify-content:center;
+}
+
+
+button {
+    border-radius:10px;  /*added */
+    border:solid lightblue 1px; /*added*/
+    height:30px;
+    width:100px;
+    margin:10px;
+    cursor: pointer;    /*added*/
+}
+
+
+button:hover {
+    background-color:ivory;  /*added */
+    
+}
+
+
+
+
+/*layout througout pages*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:lightblue;
+    text-align: center;
+    font-family:tangerine;
+    font-size: 2rem;
+    padding: 10px;
+    border: solid 1px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:lightblue;
+    font-family:monospace;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px;
+}
+
+.nav {
+    display:flex;
+    justify-content: center;
+    background-color:ivory;
+    padding: 5px;
+    border: solid 1px;
+}
+
+.list {
+    list-style:none;
+    display:inline-flex;
+    justify-content:space-around ;
+    flex-wrap:wrap;
+}
+
+.item {
+    display:flex;
+    justify-content:space-between ;
+    flex-wrap:wrap;
+    background-color:lightblue;
+    color:black;
+    text-decoration-line:none;
+    border-radius: 5px;
+    padding: 5px;
+    border:solid turquoise 1px;
+    margin:2px;
+    cursor: pointer;
+}
+
+.item:hover {
+background-color:ivory;
+}
+
+
+  
+   
+
+
+
+   

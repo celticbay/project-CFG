@@ -1,0 +1,189 @@
+
+
+ 
+ 
+ 
+ .header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:lightblue;
+    text-align: center;
+    font-family:tangerine;
+    font-size: 2rem;
+    color:black;
+    padding: 15px;
+    border: solid 1px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color:lightblue;
+  font-family:monospace;
+  text-align: center;
+  padding: 10px;
+  border: solid 1px;
+}
+
+
+.nav {
+    display:flex;
+    justify-content: center;
+    background-color:ivory;
+    padding: 5px;
+    border: solid 1px;
+}
+
+.list {
+    list-style:none;
+    display:inline-flex;
+    justify-content:space-around ;
+    flex-wrap:wrap;
+}
+
+
+.item {
+    display:flex;
+    justify-content:space-between ;
+    flex-wrap:wrap;
+    background-color:lightblue;
+    color:black;
+    text-decoration-line:none;
+    border-radius: 5px;
+    padding: 5px;
+    border:solid turquoise 1px;
+    margin:2px;
+    cursor: pointer;
+}
+
+.item:hover {
+background-color:ivory;
+}
+
+
+
+
+
+/*ireland page*/
+
+.img {
+  width:100%;
+  padding:5px;
+  border:green solid 1px;
+  margin:0px;
+  position:static;
+}
+
+.img:hover {
+  width:100%;
+  padding:5px;
+  border:rgba(225, 39, 39, 0.7) solid 2px;
+  margin:0px;
+  position:relative;
+}
+
+/*end of ireland page*/
+
+
+.vid {
+  width:100%;
+  padding:5px;
+  border:green solid 1px;
+  margin:0px;
+  position:static;
+}
+
+
+
+/*side by side with flex property*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+  padding :10px;
+}
+
+
+/*grid css*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+h3{
+  
+  color:teal;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+ 

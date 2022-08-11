@@ -1,0 +1,130 @@
+/*home page buttons*/
+.button {
+    display:inline-flex;
+    justify-content:space-between ;
+    flex-wrap:wrap;
+    background-color:turquoise;
+    color:black;
+    text-decoration-line:none;
+    border-radius: 5px;
+    padding: 5px;
+    border:solid turquoise 1px;
+    margin:2px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:white;
+  }
+  
+  /*end of home page*/
+
+
+
+
+
+
+  /* Style the links inside the sidenav */
+.mySidenav a {
+    position:fixed; /* Position them relative to the browser window */
+    left: -90px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 175px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    text-align-last:left;
+    font-size: 20px; /* Increase font size */
+    color:teal; /* text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  .mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  .home {
+    top: 175px;
+    background-color:ivory;
+  }
+  
+  .ireland {
+    top: 250px;
+    background-color:ivory;
+  }
+  
+  .portugal {
+    top: 325px;
+    background-color:ivory;
+  }
+  
+  .italy {
+    top: 400px;
+    background-color:ivory;
+  }
+
+
+
+
+
+  
+/* Style the links inside the sidenav */
+.mySidenav2 a {
+    position:fixed; /* Position them relative to the browser window */
+    right: -90px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 175px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    text-align-last:right;
+    font-size: 20px; /* Increase font size */
+    color:teal; /* White text color */
+    border-radius: 5px 5px; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  .mySidenav2 a:hover {
+    right: 0; /* On mouse-over, make the elements appear as they should */
+
+  }
+  
+  /* The links (X)px from the top with a coloured background */
+  .canada {
+    top: 175px;
+    background-color:ivory;
+  }
+  
+  .usa {
+    top: 250px;
+    background-color:ivory;
+  }
+  
+  .africa {
+    top: 325px;
+    background-color:ivory; 
+  }
+  
+  .contact {
+    top: 400px;
+    background-color:ivory;
+  }
+  
+
+
+
+
+  
+
+  
+
+
+
+  main {
+    background-image: url(./Images/Background/compusacan.jpg);
+    background-repeat:no-repeat;
+    background-attachment: absolute ;
+    background-position:center;
+    padding:10px;
+    margin:10px;
+    border:0px;
+    
+}
