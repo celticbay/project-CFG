@@ -11,17 +11,20 @@
     background-color:lightblue;
     display:flex;
     justify-content:center;
+    flex-wrap: wrap;    /*added*/
     border: solid 1px;       /*added*/
 }
 
-.content {             /*added*/
-    display:flex;
-    justify-content:center;
+.content {   
+    display:flex;          /*added*/
+    justify-content:center;  /*added*/
 }
 
 button {
-    border-radius:10px;  /*added */
-    border:solid lightblue 1px; /*added*/
+    border-radius:10px;   /*added */
+    border:solid lightblue 1px;  /*added*/
+    font-family: monospace;  /*added*/
+    color:teal;    /*added*/
     height:30px;
     width:100px;
     margin:10px;
@@ -33,14 +36,6 @@ button:hover {
     background-color:ivory;  /*added */
 }
 
-h6 {
-    font-family:monospace;
-    font-size:20px;
-    align-self: center;
-    padding:5px;
-    border:5px;
-    margin:5px;
-}
 
 
 /*layout througout pages*/
@@ -91,6 +86,7 @@ h6 {
     flex-wrap:wrap;
     background-color:lightblue;
     color:black;
+    font-family: monospace;  /*added*/
     text-decoration-line:none;
     border-radius: 5px;
     padding: 5px;
