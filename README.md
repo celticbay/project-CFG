@@ -82,6 +82,7 @@
 2. Where I struggled?
 - I struggled to just use code from bootstrap without fully understanding how it all worked.
 - Combining Buttons to change the background picture using java while maintaining the website layout.
+- *Changed the JavaScript to make this work, still not 100% but better*
 - I have spent hours on this trying alternative solutions from different sites - to be resolved. *
 - I struggled to stick to the plan at times creating multiple pages and just getting lost in the code.
 - I have not fully stuck to the wireframe - but as I learn more I will complete my initial plan.
