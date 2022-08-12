@@ -1,18 +1,23 @@
 /* css code used to change the center image of home page - this works on its own - but when the layout is added with the header and nav with the links to other pages nothing sits correctly*/
 
-body{
+/*body{ 
     background-image: url(./Images/Background/projecteye.jpg);
     background-repeat:no-repeat;
     background-size:cover;
-    
-}
+}*/
 
 
 .btn-container {
+    background-color:lightblue;
+    display:flex;
+    justify-content:center;
+    border: solid 1px;       /*added*/
+}
+
+.content {             /*added*/
     display:flex;
     justify-content:center;
 }
-
 
 button {
     border-radius:10px;  /*added */
@@ -26,10 +31,16 @@ button {
 
 button:hover {
     background-color:ivory;  /*added */
-    
 }
 
-
+h6 {
+    font-family:monospace;
+    font-size:20px;
+    align-self: center;
+    padding:5px;
+    border:5px;
+    margin:5px;
+}
 
 
 /*layout througout pages*/
