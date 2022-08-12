@@ -98,6 +98,9 @@
 
 
   Thank you to Code First Girls for this experience, thank you to Great Instructors!
+  
+  
+  This site is live at https://celticbay.github.io/project-CFG/
  
 
 
