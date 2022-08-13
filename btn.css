@@ -16,17 +16,18 @@
 }
 
 .content {   
-    display:flex;          /*added*/
+    display:flex;    /*added*/
     justify-content:center;  /*added*/
 }
 
 button {
-    border-radius:10px;   /*added */
+    border-radius:20px;   /*added */
     border:solid lightblue 1px;  /*added*/
     font-family: monospace;  /*added*/
+    font-size: 10px;  /*added*/
     color:teal;    /*added*/
-    height:30px;
-    width:100px;
+    height:20px;   /*changed*/
+    width:80px;
     margin:10px;
     cursor: pointer;    /*added*/
 }
@@ -70,7 +71,9 @@ button:hover {
     justify-content: center;
     background-color:ivory;
     padding: 5px;
-    border: solid 1px;
+    border: solid px;
+    border-left:solid 1px;  /*added */
+    border-right: solid 1px;  /*added */
 }
 
 .list {
@@ -86,11 +89,11 @@ button:hover {
     flex-wrap:wrap;
     background-color:lightblue;
     color:black;
-    font-family: monospace;  /*added*/
+    font-family: monospace;   /*added*/
     text-decoration-line:none;
     border-radius: 5px;
     padding: 5px;
-    border:solid turquoise 1px;
+    border:solid lightblue 1px;   /*changed to lightblue*/
     margin:2px;
     cursor: pointer;
 }
