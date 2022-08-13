@@ -32,6 +32,7 @@
     border: solid px; 
     border-left:solid 1px;  /*added */
     border-right: solid 1px;  /*added */
+    border-bottom: solid 1px;  /*added */
 
 }
 
